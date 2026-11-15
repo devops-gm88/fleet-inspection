@@ -1,0 +1,139 @@
+{
+  "note": "DEMONSTRATION DATA. Northshore Equipment & Haul is a fictional operator; every asset, person and inspection below is invented for this demo. It is not a real yard's data and must never be presented as real outcomes.",
+  "company": {
+    "id": "northshore",
+    "name": "Northshore Equipment & Haul",
+    "kind": "Demonstration operator"
+  },
+  "period": {
+    "id": "2026-W46",
+    "label": "Week 46, 9-15 Nov 2026",
+    "starts_at": "2026-11-09T00:00:00-05:00",
+    "ends_at": "2026-11-16T00:00:00-05:00"
+  },
+  "sites": [
+    {
+      "id": "SITE-OAK",
+      "name": "Oakville Yard"
+    },
+    {
+      "id": "SITE-BUR",
+      "name": "Burlington Depot"
+    }
+  ],
+  "inspectors": [
+    {
+      "id": "INSP-01",
+      "name": "Priya Raman",
+      "role": "Yard Supervisor"
+    },
+    {
+      "id": "INSP-02",
+      "name": "Marcus Hale",
+      "role": "Driver"
+    },
+    {
+      "id": "INSP-03",
+      "name": "Elena Duarte",
+      "role": "Field Inspector"
+    },
+    {
+      "id": "INSP-04",
+      "name": "Tom Nguyen",
+      "role": "Driver"
+    }
+  ],
+  "assets": [
+    {
+      "id": "TRL-1042",
+      "class": "trailer",
+      "serial": "1W1UDS482KT201842",
+      "make": "Wilson",
+      "model": "48 ft flatbed",
+      "year": 2019,
+      "ownership": "owned",
+      "status": "out_of_service",
+      "site_id": "SITE-OAK",
+      "assigned_to": "INSP-02",
+      "note": "Held at the yard after the 12 Nov post-use inspection."
+    },
+    {
+      "id": "TRL-2087",
+      "class": "trailer",
+      "serial": "1F9FS4822ND331907",
+      "make": "Fontaine",
+      "model": "Step-deck 48 ft",
+      "year": 2022,
+      "ownership": "leased",
+      "status": "available",
+      "site_id": "SITE-BUR",
+      "assigned_to": "INSP-03",
+      "note": "Leased unit. Existing deck damage was recorded at pre-use and must not be re-charged."
+    },
+    {
+      "id": "PU-3312",
+      "class": "power_unit",
+      "serial": "1FT7W2BT8MEC44102",
+      "make": "Ford",
+      "model": "F-250 service truck",
+      "year": 2021,
+      "ownership": "owned",
+      "status": "release_with_damage",
+      "site_id": "SITE-OAK",
+      "assigned_to": "INSP-04",
+      "note": "Service call to a customer site and back on 10 Nov."
+    },
+    {
+      "id": "EQ-5510",
+      "class": "equipment",
+      "serial": "B3PP12345",
+      "make": "Bobcat",
+      "model": "E35 mini excavator",
+      "year": 2020,
+      "ownership": "rented",
+      "status": "out_of_service",
+      "site_id": "SITE-BUR",
+      "assigned_to": "INSP-01",
+      "note": "Held after the post-use inspection: a critical hydraulic finding has no photo and is unresolved."
+    },
+    {
+      "id": "EQ-6604",
+      "class": "equipment",
+      "serial": "WNCP55421",
+      "make": "Wacker Neuson",
+      "model": "DPU6555 plate compactor",
+      "year": 2023,
+      "ownership": "owned",
+      "status": "on_hire",
+      "site_id": "SITE-OAK",
+      "assigned_to": "INSP-01",
+      "note": "Went out on hire 13 Nov. No return inspection was recorded in the period."
+    },
+    {
+      "id": "EQ-7711",
+      "class": "equipment",
+      "serial": "GS193014552",
+      "make": "Genie",
+      "model": "GS-1930 scissor lift",
+      "year": 2021,
+      "ownership": "rented",
+      "status": "available",
+      "site_id": "SITE-BUR",
+      "assigned_to": "INSP-03",
+      "note": "Returned 12 Nov with no pre-use baseline in the period, so condition cannot be compared."
+    },
+    {
+      "id": "TRL-3120",
+      "class": "trailer",
+      "serial": "1DW1A5320SB551208",
+      "make": "Doonan",
+      "model": "Drop-deck 45 ft",
+      "year": 2020,
+      "ownership": "owned",
+      "status": "available",
+      "site_id": "SITE-OAK",
+      "assigned_to": "INSP-02",
+      "note": "No inspection of any kind in the period. This is the failure the product exists to expose."
+    }
+  ]
+}

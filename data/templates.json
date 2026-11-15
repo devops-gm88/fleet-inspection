@@ -1,0 +1,225 @@
+{
+  "note": "One template per asset class. The same template and version are used for pre-use and post-use so the two inspections are comparable item for item. Every item has a photo slot; a finding cannot resolve without a photo.",
+  "templates": [
+    {
+      "id": "TPL-TRL",
+      "class": "trailer",
+      "name": "Trailer pre-use / post-use inspection",
+      "version": 3,
+      "items": [
+        {
+          "id": "TRL-BRK-01",
+          "label": "Service brakes hold the trailer on a roll-out test",
+          "kind": "boolean",
+          "critical": true,
+          "guidance": "Tractor stationary, trailer charged, release parking brake and confirm the unit holds."
+        },
+        {
+          "id": "TRL-BRK-02",
+          "label": "Air brake system leak-down within limit",
+          "kind": "boolean",
+          "critical": true,
+          "guidance": "Build pressure, shut down, listen and watch the gauge for a steady loss."
+        },
+        {
+          "id": "TRL-LGT-04",
+          "label": "Rear marker lamps, brake lights and turn signals",
+          "kind": "boolean",
+          "critical": false,
+          "guidance": "Walk the rear of the trailer with hazard and brake inputs applied."
+        },
+        {
+          "id": "TRL-TIR-05",
+          "label": "Tire tread depth, sidewalls and wheel hardware",
+          "kind": "graded",
+          "critical": false,
+          "scale_min": 1,
+          "scale_max": 5,
+          "fail_at_or_below": 2,
+          "change_threshold": 2,
+          "guidance": "Grade every tire position; photograph any sidewall damage or exposed cord."
+        },
+        {
+          "id": "TRL-BED-07",
+          "label": "Deck boards, cross-members and fasteners",
+          "kind": "graded",
+          "critical": false,
+          "scale_min": 1,
+          "scale_max": 5,
+          "fail_at_or_below": 2,
+          "change_threshold": 2,
+          "guidance": "Walk the deck, check board edges, cross-member webs and fastener heads."
+        },
+        {
+          "id": "TRL-CPL-08",
+          "label": "Kingpin, fifth-wheel plate and coupling",
+          "kind": "boolean",
+          "critical": true,
+          "guidance": "Inspect the kingpin for wear and the plate for cracks; confirm the lock engages."
+        },
+        {
+          "id": "TRL-MUD-09",
+          "label": "Mud flaps and splash guards",
+          "kind": "boolean",
+          "critical": false,
+          "guidance": "Confirm both flaps are present, attached and not torn."
+        },
+        {
+          "id": "TRL-SEC-10",
+          "label": "Load securement points (D-rings, chains, straps)",
+          "kind": "boolean",
+          "critical": false,
+          "guidance": "Check every D-ring and chain for cracks, elongation and missing hardware."
+        }
+      ]
+    },
+    {
+      "id": "TPL-PU",
+      "class": "power_unit",
+      "name": "Power unit pre-use / post-use inspection",
+      "version": 2,
+      "items": [
+        {
+          "id": "PU-BRK-01",
+          "label": "Service brakes and parking brake",
+          "kind": "boolean",
+          "critical": true,
+          "guidance": "Low-speed brake test in the yard and parking brake hold on a grade."
+        },
+        {
+          "id": "PU-TIR-02",
+          "label": "Tires, tread and wheel hardware",
+          "kind": "graded",
+          "critical": false,
+          "scale_min": 1,
+          "scale_max": 5,
+          "fail_at_or_below": 2,
+          "change_threshold": 2,
+          "guidance": "Grade all four positions plus the spare; check lug nuts and sidewalls."
+        },
+        {
+          "id": "PU-LGT-03",
+          "label": "Headlights, tail lights and beacons",
+          "kind": "boolean",
+          "critical": false,
+          "guidance": "Cycle all light functions and confirm the beacon operates."
+        },
+        {
+          "id": "PU-FLD-04",
+          "label": "Engine, coolant and hydraulic fluid leaks",
+          "kind": "boolean",
+          "critical": true,
+          "guidance": "Check under the unit after the engine has run; look for fresh wet spots."
+        },
+        {
+          "id": "PU-BEL-05",
+          "label": "Belts, hoses and clamps",
+          "kind": "graded",
+          "critical": false,
+          "scale_min": 1,
+          "scale_max": 5,
+          "fail_at_or_below": 2,
+          "change_threshold": 2,
+          "guidance": "Grade belt condition and hose surfaces; squeeze hoses for softness."
+        },
+        {
+          "id": "PU-CAB-06",
+          "label": "Cab, body panels and doors",
+          "kind": "graded",
+          "critical": false,
+          "scale_min": 1,
+          "scale_max": 5,
+          "fail_at_or_below": 2,
+          "change_threshold": 2,
+          "guidance": "Walk the cab and service body; photograph any new dent, scrape or cracked panel."
+        },
+        {
+          "id": "PU-HRN-07",
+          "label": "Horn, wipers and washer fluid",
+          "kind": "boolean",
+          "critical": false,
+          "guidance": "Operate the horn, both wiper speeds and the washer spray."
+        },
+        {
+          "id": "PU-SAF-08",
+          "label": "Seat belts, mirrors and backup alarm",
+          "kind": "boolean",
+          "critical": true,
+          "guidance": "Confirm belt latch and retract, mirror adjustment, and alarm in reverse."
+        }
+      ]
+    },
+    {
+      "id": "TPL-EQ",
+      "class": "equipment",
+      "name": "Equipment pre-use / post-use inspection",
+      "version": 4,
+      "items": [
+        {
+          "id": "EQ-HYD-01",
+          "label": "Hydraulic hoses, fittings and cylinders",
+          "kind": "boolean",
+          "critical": true,
+          "guidance": "Inspect every hose run and fitting; look for chafing, weeping and damaged wiper seals."
+        },
+        {
+          "id": "EQ-TRK-02",
+          "label": "Tracks or tires, undercarriage wear",
+          "kind": "graded",
+          "critical": false,
+          "scale_min": 1,
+          "scale_max": 5,
+          "fail_at_or_below": 2,
+          "change_threshold": 2,
+          "guidance": "Grade track tension, grouser height, rollers and idlers, or tire condition."
+        },
+        {
+          "id": "EQ-PIN-03",
+          "label": "Pins, bushings and pivot play",
+          "kind": "graded",
+          "critical": false,
+          "scale_min": 1,
+          "scale_max": 5,
+          "fail_at_or_below": 2,
+          "change_threshold": 2,
+          "guidance": "Work the boom and bucket; grade visible play and grease presence."
+        },
+        {
+          "id": "EQ-GRD-04",
+          "label": "Guards, shields and interlocks in place",
+          "kind": "boolean",
+          "critical": true,
+          "guidance": "Confirm every guard is fitted and every interlock prevents operation when open."
+        },
+        {
+          "id": "EQ-LGT-05",
+          "label": "Work lights and warning beacon",
+          "kind": "boolean",
+          "critical": false,
+          "guidance": "Cycle every work light and the beacon."
+        },
+        {
+          "id": "EQ-DEC-06",
+          "label": "Load chart, decals and control labels legible",
+          "kind": "boolean",
+          "critical": false,
+          "guidance": "Confirm the load chart and control labels are present and readable."
+        },
+        {
+          "id": "EQ-EMG-07",
+          "label": "Emergency stop and lockout function",
+          "kind": "boolean",
+          "critical": true,
+          "guidance": "Press the emergency stop with the machine running and confirm it shuts down."
+        },
+        {
+          "id": "EQ-FLD-08",
+          "label": "Fluid levels and visible leaks",
+          "kind": "boolean",
+          "critical": false,
+          "guidance": "Check engine oil, coolant and hydraulic level; inspect under the machine."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fleet-inspection"
+version = "0.1.0"
+description = "Fleet & asset inspection demonstration: compare pre-use and post-use condition, with photo evidence"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Moid Chowdhury" }]
+dependencies = []
+
+[project.scripts]
+fleet = "fleet.cli:main"
+
+[tool.setuptools]
+packages = ["fleet"]

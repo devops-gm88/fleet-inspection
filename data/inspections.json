@@ -1,0 +1,324 @@
+{
+  "note": "DEMONSTRATION DATA. Ten inspections across seven invented assets. Pre-use and post-use records use the same template and version, in the same cycle, so they pair item for item. Photos are generated deterministically from the photo record by `python3 -m fleet photos`; no real photographs are included.",
+  "inspections": [
+    {
+      "id": "INS-2026-11-11-TRL1042-PRE",
+      "asset_id": "TRL-1042",
+      "template_id": "TPL-TRL",
+      "template_version": 3,
+      "side": "pre_use",
+      "cycle_ref": "CYCLE-TRL1042-2026-W46",
+      "inspector_id": "INSP-03",
+      "started_at": "2026-11-11T06:40:00-05:00",
+      "completed_at": "2026-11-11T06:58:00-05:00",
+      "results": [
+        { "item_id": "TRL-BRK-01", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "TRL-BRK-02", "state": "pass", "grade": null, "note": "Holds pressure; no audible leak." },
+        { "item_id": "TRL-LGT-04", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "TRL-TIR-05", "state": "pass", "grade": 4, "note": "Even wear; no sidewall damage." },
+        { "item_id": "TRL-BED-07", "state": "pass", "grade": 4, "note": "Deck sound; light surface wear at the tail." },
+        { "item_id": "TRL-CPL-08", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "TRL-MUD-09", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "TRL-SEC-10", "state": "pass", "grade": null, "note": "" }
+      ]
+    },
+    {
+      "id": "INS-2026-11-12-TRL1042-POST",
+      "asset_id": "TRL-1042",
+      "template_id": "TPL-TRL",
+      "template_version": 3,
+      "side": "post_use",
+      "cycle_ref": "CYCLE-TRL1042-2026-W46",
+      "inspector_id": "INSP-02",
+      "started_at": "2026-11-12T17:05:00-05:00",
+      "completed_at": "2026-11-12T17:24:00-05:00",
+      "results": [
+        { "item_id": "TRL-BRK-01", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "TRL-BRK-02", "state": "fail", "grade": null, "note": "Pressure falls about 6 psi/min; audible leak at the rear gladhand. Trailer held out of service." },
+        { "item_id": "TRL-LGT-04", "state": "fail", "grade": null, "note": "Right rear marker lamp inoperative; left lamp and brake lights work." },
+        { "item_id": "TRL-TIR-05", "state": "pass", "grade": 3, "note": "Wear consistent with distance travelled; no new damage." },
+        { "item_id": "TRL-BED-07", "state": "fail", "grade": 2, "note": "Two deck boards cracked across the left rail; splintered edge over the rear axle." },
+        { "item_id": "TRL-CPL-08", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "TRL-MUD-09", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "TRL-SEC-10", "state": "pass", "grade": null, "note": "" }
+      ]
+    },
+    {
+      "id": "INS-2026-11-12-TRL2087-PRE",
+      "asset_id": "TRL-2087",
+      "template_id": "TPL-TRL",
+      "template_version": 3,
+      "side": "pre_use",
+      "cycle_ref": "CYCLE-TRL2087-2026-W46",
+      "inspector_id": "INSP-01",
+      "started_at": "2026-11-12T07:15:00-05:00",
+      "completed_at": "2026-11-12T07:31:00-05:00",
+      "results": [
+        { "item_id": "TRL-BRK-01", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "TRL-BRK-02", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "TRL-LGT-04", "state": "fail", "grade": null, "note": "Left rear marker lens cracked; lamp still works. Pre-existing." },
+        { "item_id": "TRL-TIR-05", "state": "pass", "grade": 3, "note": "Worn but serviceable." },
+        { "item_id": "TRL-BED-07", "state": "fail", "grade": 2, "note": "Dent and bent cross-member at the left rear. Pre-existing customer damage recorded before hire." },
+        { "item_id": "TRL-CPL-08", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "TRL-MUD-09", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "TRL-SEC-10", "state": "pass", "grade": null, "note": "" }
+      ]
+    },
+    {
+      "id": "INS-2026-11-14-TRL2087-POST",
+      "asset_id": "TRL-2087",
+      "template_id": "TPL-TRL",
+      "template_version": 3,
+      "side": "post_use",
+      "cycle_ref": "CYCLE-TRL2087-2026-W46",
+      "inspector_id": "INSP-03",
+      "started_at": "2026-11-14T15:40:00-05:00",
+      "completed_at": "2026-11-14T16:02:00-05:00",
+      "results": [
+        { "item_id": "TRL-BRK-01", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "TRL-BRK-02", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "TRL-LGT-04", "state": "pass", "grade": null, "note": "Lamp lens replaced by the customer; circuit tested." },
+        { "item_id": "TRL-TIR-05", "state": "pass", "grade": 3, "note": "Wear consistent with distance travelled; no new damage." },
+        { "item_id": "TRL-BED-07", "state": "fail", "grade": 2, "note": "Same dent and bent cross-member as recorded at pre-use. No new damage." },
+        { "item_id": "TRL-CPL-08", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "TRL-MUD-09", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "TRL-SEC-10", "state": "pass", "grade": null, "note": "" }
+      ]
+    },
+    {
+      "id": "INS-2026-11-10-PU3312-PRE",
+      "asset_id": "PU-3312",
+      "template_id": "TPL-PU",
+      "template_version": 2,
+      "side": "pre_use",
+      "cycle_ref": "CYCLE-PU3312-2026-W46",
+      "inspector_id": "INSP-04",
+      "started_at": "2026-11-10T06:35:00-05:00",
+      "completed_at": "2026-11-10T06:52:00-05:00",
+      "results": [
+        { "item_id": "PU-BRK-01", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "PU-TIR-02", "state": "pass", "grade": 4, "note": "" },
+        { "item_id": "PU-LGT-03", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "PU-FLD-04", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "PU-BEL-05", "state": "pass", "grade": 4, "note": "" },
+        { "item_id": "PU-CAB-06", "state": "pass", "grade": 5, "note": "Cab and service body clean; no damage." },
+        { "item_id": "PU-HRN-07", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "PU-SAF-08", "state": "pass", "grade": null, "note": "" }
+      ]
+    },
+    {
+      "id": "INS-2026-11-10-PU3312-POST",
+      "asset_id": "PU-3312",
+      "template_id": "TPL-PU",
+      "template_version": 2,
+      "side": "post_use",
+      "cycle_ref": "CYCLE-PU3312-2026-W46",
+      "inspector_id": "INSP-04",
+      "started_at": "2026-11-10T16:20:00-05:00",
+      "completed_at": "2026-11-10T16:38:00-05:00",
+      "results": [
+        { "item_id": "PU-BRK-01", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "PU-TIR-02", "state": "pass", "grade": 4, "note": "" },
+        { "item_id": "PU-LGT-03", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "PU-FLD-04", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "PU-BEL-05", "state": "pass", "grade": 4, "note": "" },
+        { "item_id": "PU-CAB-06", "state": "pass", "grade": 3, "note": "Scrape and shallow dent on the passenger door; paint transfer." },
+        { "item_id": "PU-HRN-07", "state": "fail", "grade": null, "note": "Washer pump inoperative; wipers and horn work." },
+        { "item_id": "PU-SAF-08", "state": "pass", "grade": null, "note": "" }
+      ]
+    },
+    {
+      "id": "INS-2026-11-13-EQ5510-PRE",
+      "asset_id": "EQ-5510",
+      "template_id": "TPL-EQ",
+      "template_version": 4,
+      "side": "pre_use",
+      "cycle_ref": "CYCLE-EQ5510-2026-W46",
+      "inspector_id": "INSP-01",
+      "started_at": "2026-11-13T07:50:00-05:00",
+      "completed_at": "2026-11-13T08:12:00-05:00",
+      "results": [
+        { "item_id": "EQ-HYD-01", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-TRK-02", "state": "pass", "grade": 4, "note": "" },
+        { "item_id": "EQ-PIN-03", "state": "pass", "grade": 4, "note": "" },
+        { "item_id": "EQ-GRD-04", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-LGT-05", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-DEC-06", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-EMG-07", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-FLD-08", "state": "pass", "grade": null, "note": "" }
+      ]
+    },
+    {
+      "id": "INS-2026-11-14-EQ5510-POST",
+      "asset_id": "EQ-5510",
+      "template_id": "TPL-EQ",
+      "template_version": 4,
+      "side": "post_use",
+      "cycle_ref": "CYCLE-EQ5510-2026-W46",
+      "inspector_id": "INSP-03",
+      "started_at": "2026-11-14T11:25:00-05:00",
+      "completed_at": "2026-11-14T11:47:00-05:00",
+      "results": [
+        { "item_id": "EQ-HYD-01", "state": "fail", "grade": null, "note": "Hose to the bucket cylinder chafed where it passes the boom; slow weep at the fitting. Review note: the photo capture did not save and the item is unresolved." },
+        { "item_id": "EQ-TRK-02", "state": "pass", "grade": 4, "note": "" },
+        { "item_id": "EQ-GRD-04", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-LGT-05", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-DEC-06", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-EMG-07", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-FLD-08", "state": "pass", "grade": null, "note": "" }
+      ]
+    },
+    {
+      "id": "INS-2026-11-13-EQ6604-PRE",
+      "asset_id": "EQ-6604",
+      "template_id": "TPL-EQ",
+      "template_version": 4,
+      "side": "pre_use",
+      "cycle_ref": "CYCLE-EQ6604-2026-W46",
+      "inspector_id": "INSP-01",
+      "started_at": "2026-11-13T09:05:00-05:00",
+      "completed_at": "2026-11-13T09:18:00-05:00",
+      "results": [
+        { "item_id": "EQ-HYD-01", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-TRK-02", "state": "pass", "grade": 5, "note": "" },
+        { "item_id": "EQ-PIN-03", "state": "pass", "grade": 5, "note": "" },
+        { "item_id": "EQ-GRD-04", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-LGT-05", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-DEC-06", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-EMG-07", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-FLD-08", "state": "pass", "grade": null, "note": "" }
+      ]
+    },
+    {
+      "id": "INS-2026-11-12-EQ7711-POST",
+      "asset_id": "EQ-7711",
+      "template_id": "TPL-EQ",
+      "template_version": 4,
+      "side": "post_use",
+      "cycle_ref": "CYCLE-EQ7711-2026-W46",
+      "inspector_id": "INSP-03",
+      "started_at": "2026-11-12T09:30:00-05:00",
+      "completed_at": "2026-11-12T09:49:00-05:00",
+      "results": [
+        { "item_id": "EQ-HYD-01", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-TRK-02", "state": "pass", "grade": 4, "note": "" },
+        { "item_id": "EQ-PIN-03", "state": "pass", "grade": 3, "note": "" },
+        { "item_id": "EQ-GRD-04", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-LGT-05", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-DEC-06", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-EMG-07", "state": "pass", "grade": null, "note": "" },
+        { "item_id": "EQ-FLD-08", "state": "pass", "grade": null, "note": "" }
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "id": "PHO-1042-PRE-BRK",
+      "inspection_id": "INS-2026-11-11-TRL1042-PRE",
+      "item_id": "TRL-BRK-02",
+      "view": "brakes",
+      "defect": "none",
+      "captured_at": "2026-11-11T06:47:00-05:00",
+      "caption": "Air lines and rear gladhand at pre-use; no leak audible and pressure held."
+    },
+    {
+      "id": "PHO-1042-PRE-LGT",
+      "inspection_id": "INS-2026-11-11-TRL1042-PRE",
+      "item_id": "TRL-LGT-04",
+      "view": "rear",
+      "defect": "none",
+      "captured_at": "2026-11-11T06:49:00-05:00",
+      "caption": "Rear marker lamps and brake lights at pre-use; all lamps work."
+    },
+    {
+      "id": "PHO-1042-PRE-BED",
+      "inspection_id": "INS-2026-11-11-TRL1042-PRE",
+      "item_id": "TRL-BED-07",
+      "view": "deck",
+      "defect": "none",
+      "captured_at": "2026-11-11T06:52:00-05:00",
+      "caption": "Deck over the rear axle at pre-use; boards sound."
+    },
+    {
+      "id": "PHO-1042-POST-BRK",
+      "inspection_id": "INS-2026-11-12-TRL1042-POST",
+      "item_id": "TRL-BRK-02",
+      "view": "brakes",
+      "defect": "leak",
+      "captured_at": "2026-11-12T17:09:00-05:00",
+      "caption": "Rear gladhand leak found at post-use; air audible at the fitting."
+    },
+    {
+      "id": "PHO-1042-POST-LGT",
+      "inspection_id": "INS-2026-11-12-TRL1042-POST",
+      "item_id": "TRL-LGT-04",
+      "view": "rear",
+      "defect": "lamp_out",
+      "captured_at": "2026-11-12T17:12:00-05:00",
+      "caption": "Right rear marker lamp dark with the lights on, post-use."
+    },
+    {
+      "id": "PHO-1042-POST-BED",
+      "inspection_id": "INS-2026-11-12-TRL1042-POST",
+      "item_id": "TRL-BED-07",
+      "view": "deck",
+      "defect": "crack",
+      "captured_at": "2026-11-12T17:16:00-05:00",
+      "caption": "Two cracked deck boards over the rear axle, left rail, post-use."
+    },
+    {
+      "id": "PHO-2087-PRE-LGT",
+      "inspection_id": "INS-2026-11-12-TRL2087-PRE",
+      "item_id": "TRL-LGT-04",
+      "view": "rear",
+      "defect": "crack",
+      "captured_at": "2026-11-12T07:19:00-05:00",
+      "caption": "Cracked left rear marker lens recorded at pre-use; lamp still works."
+    },
+    {
+      "id": "PHO-2087-PRE-BED",
+      "inspection_id": "INS-2026-11-12-TRL2087-PRE",
+      "item_id": "TRL-BED-07",
+      "view": "deck",
+      "defect": "dent",
+      "captured_at": "2026-11-12T07:23:00-05:00",
+      "caption": "Pre-existing dent and bent cross-member, left rear, recorded before hire."
+    },
+    {
+      "id": "PHO-2087-POST-BED",
+      "inspection_id": "INS-2026-11-14-TRL2087-POST",
+      "item_id": "TRL-BED-07",
+      "view": "deck",
+      "defect": "dent",
+      "captured_at": "2026-11-14T15:52:00-05:00",
+      "caption": "Same pre-existing dent and cross-member at post-use; no new damage."
+    },
+    {
+      "id": "PHO-3312-PRE-CAB",
+      "inspection_id": "INS-2026-11-10-PU3312-PRE",
+      "item_id": "PU-CAB-06",
+      "view": "cab",
+      "defect": "none",
+      "captured_at": "2026-11-10T06:42:00-05:00",
+      "caption": "Passenger door and service body at pre-use; no damage."
+    },
+    {
+      "id": "PHO-3312-POST-CAB",
+      "inspection_id": "INS-2026-11-10-PU3312-POST",
+      "item_id": "PU-CAB-06",
+      "view": "cab",
+      "defect": "dent",
+      "captured_at": "2026-11-10T16:26:00-05:00",
+      "caption": "Scrape and shallow dent on the passenger door found at post-use."
+    },
+    {
+      "id": "PHO-3312-POST-HRN",
+      "inspection_id": "INS-2026-11-10-PU3312-POST",
+      "item_id": "PU-HRN-07",
+      "view": "front",
+      "defect": "inop",
+      "captured_at": "2026-11-10T16:29:00-05:00",
+      "caption": "Washer reservoir and pump area; pump does not run at post-use."
+    }
+  ]
+}
